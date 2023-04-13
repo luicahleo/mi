@@ -1,0 +1,21 @@
+﻿.field-validation-error
+{
+    color: #ff0000;
+}
+
+.input-validation-error
+{
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+
+div.growlUI h1, div.growlUI h2 {
+	color: white; padding: 5px 5px 5px 5px; text-align: left
+}

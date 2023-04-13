@@ -1,0 +1,32 @@
+﻿.mostrar {
+    display:block;
+}
+
+.ocultar{
+    display:none;
+}
+
+.visibleOn{
+    visibility: visible;
+}
+.visibleOff {
+    visibility: hidden;
+}
+
+.vert-offset-top-12 {
+    margin-top: 12em;
+}
+
+.imagen100Porciento{
+    height:50px;
+    width:50px;
+}
+
+
+.invisibleIG{
+    visibility: hidden !important;
+}
+
+.prevIcono {
+    margin-right: 50%;
+}

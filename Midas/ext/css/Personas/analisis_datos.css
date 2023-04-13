@@ -1,0 +1,30 @@
+﻿.perfil {
+    color: blue;
+    font-size: 2em;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+.ocupacion {
+    color: red;
+    font-size: 1.5em;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+.unidad-organizativa {
+    color: green;
+    font-size: 1.2em;
+    background-color: #f1f1f1;
+    padding: 5px;
+}
+
+.posicion {
+    color: black;
+    font-size: 1em;
+    background-color: #f1f1f1;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+

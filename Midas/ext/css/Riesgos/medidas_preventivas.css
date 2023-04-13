@@ -1,0 +1,48 @@
+﻿#ocultar {
+    display: none;
+}
+
+#chk:checked + #ocultar {
+    display: block;
+}
+
+.icon-plus-circle {
+    color: green;
+    width: 50% !important;
+    height: 50% !important;
+    margin-top: 8%;
+    margin-left: 7.5%;
+    font-size: 2em;
+    background-size: 120%;
+}
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('../Content/images/pageLoader.gif') 50% 50% no-repeat rgb(249,249,249);
+    opacity: .6;
+}
+
+.MedidasGeneralesCentro {
+    font-size: 10px;
+}
+
+.MedidasGeneralesRiesgo {
+    font-size: 10px;
+}
+
+.SituacionesRiesgo {
+    font-size: 12px;
+}
+
+.MedidasSituacion {
+    font-size: 10px;
+}
+
+.Riesgos {
+    font-size: 14px;
+}

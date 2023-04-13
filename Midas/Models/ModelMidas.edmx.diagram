@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e400d8dc30084d4ca61af966fcdca9e5" Name="Diagram1" ZoomLevel="80">
+        <EntityTypeShape EntityType="MidasModel.accionesmejora" Width="1.5" PointX="2.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.accionmejora_accion" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.accionmejora_documento" Width="1.5" PointX="4.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.accionmejora_referencial" Width="1.5" PointX="6.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.ambitos" Width="1.5" PointX="8.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.aspecto_grupo" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.aspecto_parametro" Width="1.5" PointX="10.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.aspecto_parametro_valoracion" Width="1.5" PointX="4.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.aspecto_parametro_valoracion_log" Width="1.5" PointX="6.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.aspecto_parametros" Width="1.5" PointX="8.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.aspecto_parametros_log" Width="1.5" PointX="11.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.aspecto_subgrupo" Width="1.5" PointX="11.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.aspecto_tipo" Width="1.5" PointX="10.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.aspecto_valoracion" Width="1.5" PointX="12.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.aspecto_valoracion_log" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.auditores" Width="1.5" PointX="14.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.auditorias" Width="1.5" PointX="14.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.auditorias_auditores" Width="1.5" PointX="14.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.auditorias_observador" Width="1.5" PointX="16.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.auditorias_programa" Width="1.5" PointX="0.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.auditorias_referenciales" Width="1.5" PointX="16.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.comunicacion" Width="1.5" PointX="16.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.comunicacion_canales" Width="1.5" PointX="16.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.comunicacion_clasificacion" Width="1.5" PointX="16.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.comunicacion_documentos" Width="1.5" PointX="16.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.comunicacion_procesos" Width="1.5" PointX="18.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.comunicacion_tipos" Width="1.5" PointX="18.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.comunidad_autonoma" Width="1.5" PointX="18.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.cualificaciones" Width="1.5" PointX="18.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.cuestionario" Width="1.5" PointX="10.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.despliegue" Width="1.5" PointX="12.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.documentacion" Width="1.5" PointX="18.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.documentacion_hist" Width="1.5" PointX="18.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.documentos_programa" Width="1.5" PointX="0.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.emergencias" Width="1.5" PointX="20.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.enlaces" Width="1.5" PointX="20.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.evaluacionriesgos" Width="1.5" PointX="20.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.evaluacionriesgos_elaboradopor" Width="1.5" PointX="20.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.evaluacionriesgos_tipodoc" Width="1.5" PointX="14.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.evento_ambiental" Width="1.5" PointX="20.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.evento_ambiental_documentos" Width="1.5" PointX="22.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.evento_ambiental_foto" Width="1.5" PointX="0.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.evento_ambiental_matriz" Width="1.5" PointX="2.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.evento_ambiental_tipo" Width="1.5" PointX="22.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.evento_calidad" Width="1.5" PointX="4.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.evento_seguridad" Width="1.5" PointX="22.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.evento_seguridad_documentos" Width="1.5" PointX="16.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.evento_seguridad_foto" Width="1.5" PointX="18.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.evento_seguridad_severidad" Width="1.5" PointX="20.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.evento_seguridad_subtipoevento" Width="1.5" PointX="22.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.evento_seguridad_tipo" Width="1.5" PointX="6.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.evento_seguridad_tipoevento" Width="1.5" PointX="8.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.evidencias" Width="1.5" PointX="10.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.ficheros" Width="1.5" PointX="12.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.formacion" Width="1.5" PointX="24.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.imagenes" Width="1.5" PointX="24.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.indicador_centrales" Width="1.5" PointX="24.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.indicadores" Width="1.5" PointX="24.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.indicadores_hojadedatos" Width="1.5" PointX="24.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.indicadores_hojadedatos_valores" Width="1.5" PointX="24.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.indicadores_imputacion" Width="1.5" PointX="0.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.indicadores_planificacion" Width="1.5" PointX="14.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.informesseguridad" Width="1.5" PointX="16.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.informesseguridad_elaboradopor" Width="1.5" PointX="18.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.informesseguridad_tipodoc" Width="1.5" PointX="20.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.localidad" Width="1.5" PointX="26.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.log" Width="1.5" PointX="26.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.materialdivulgativo" Width="1.5" PointX="26.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.materialdivulgativo_riesgos" Width="1.5" PointX="6.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.materialdivulgativo_tipodoc" Width="1.5" PointX="8.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.modulos" Width="1.5" PointX="26.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.normas" Width="1.5" PointX="10.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.noticias" Width="1.5" PointX="26.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.objetivo_centrales" Width="1.5" PointX="26.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.objetivo_indicadorproceso" Width="1.5" PointX="26.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.objetivo_tecnologias" Width="1.5" PointX="26.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.objetivos" Width="1.5" PointX="26.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.objetivos_procesos" Width="1.5" PointX="2.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.pais" Width="1.5" PointX="22.75" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.partes" Width="1.5" PointX="28.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.perfil" Width="1.5" PointX="28.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.procesos" Width="1.5" PointX="28.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.provincia" Width="1.5" PointX="28.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.referenciales" Width="1.5" PointX="18.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.requisitoslegales" Width="1.5" PointX="28.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.reuniones" Width="1.5" PointX="28.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.reuniones_documentos" Width="1.5" PointX="4.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.reuniones_participantes" Width="1.5" PointX="6.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.revision_energetica" Width="1.5" PointX="8.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.Riesgos" Width="1.5" PointX="10.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.riesgos_categorias" Width="1.5" PointX="12.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.riesgos_stakeholders" Width="1.5" PointX="14.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.riesgos_tipologias" Width="1.5" PointX="30.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.satisfaccion" Width="1.5" PointX="30.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.stakeholders_nivel1" Width="1.5" PointX="30.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.stakeholders_nivel2" Width="1.5" PointX="30.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.stakeholders_nivel3" Width="1.5" PointX="30.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.stakeholders_nivel4" Width="1.5" PointX="30.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.tipo_accionesmejora" Width="1.5" PointX="30.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.tipodocumento" Width="1.5" PointX="20.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.usuario_centros" Width="1.5" PointX="30.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_AccionMejora_Accion" Width="1.5" PointX="22.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.Vista_AccionMejoraFicha" Width="1.5" PointX="30.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_AlertaEventos" Width="1.5" PointX="16.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_AspectosDesplegable" Width="1.5" PointX="28.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_AspectosTipo" Width="1.5" PointX="30.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_AspectosValoracion" Width="1.5" PointX="32.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_AspectoTipo" Width="1.5" PointX="2.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_Auditores" Width="1.5" PointX="4.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_AuditoriaObservadores" Width="1.5" PointX="32.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_AuditoriaReferenciales" Width="1.5" PointX="32.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_Auditorias" Width="1.5" PointX="12.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_CalendarioEventos" Width="1.5" PointX="32.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_Comunicaciones" Width="1.5" PointX="32.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_Despliegue" Width="1.5" PointX="32.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_DocumentacionVersion" Width="1.5" PointX="24.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_EvalRiesgos" Width="1.5" PointX="32.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_Eventos_Seguridad" Width="1.5" PointX="32.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_Indicadores" Width="1.5" PointX="18.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_Indicadores_Centros" Width="1.5" PointX="34.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_IndicadoresAfectadosParametro" Width="1.5" PointX="34.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_IndicadoresFichaDireccion" Width="1.5" PointX="6.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_IndicadoresPlanificados" Width="1.5" PointX="34.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_ListadoIndicadores" Width="1.5" PointX="34.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_ListarAccionesMejora" Width="1.5" PointX="20.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_ListarAccionesMejoraFicha" Width="1.5" PointX="26.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_ListarCentrales" Width="1.5" PointX="28.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_ListarCentrosAsignados" Width="1.5" PointX="34.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_ListarCentrosSede" Width="1.5" PointX="34.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_ListarComunidades" Width="1.5" PointX="2.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_ListarComunidadesEdicion" Width="1.5" PointX="14.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_ListarEmergencias" Width="1.5" PointX="36.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_ListarEnlaces" Width="1.5" PointX="36.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_ListarEventosAmbientales" Width="1.5" PointX="36.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_ListarEventosCalidad" Width="1.5" PointX="36.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_ListarInfSeg" Width="1.5" PointX="36.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_ListarLogEvaluacionesFoco" Width="1.5" PointX="36.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_ListarLogEvaluacionesParametro" Width="1.5" PointX="22.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_ListarLogParametrosFocos" Width="1.5" PointX="36.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_ListarMateriales" Width="1.5" PointX="16.75" PointY="37.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_ListarPaises" Width="1.5" PointX="38.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_ListarParametrosTipoAspecto" Width="1.5" PointX="0.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_ListarProvincias" Width="1.5" PointX="2.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_ListarRevisionesEnergeticas" Width="1.5" PointX="38.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_ListarSatisfaccion" Width="1.5" PointX="38.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_ListarTipoDocumento" Width="1.5" PointX="38.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_ListarUsuarios" Width="1.5" PointX="12.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_MaestroAspectos" Width="1.5" PointX="38.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_Objetivos" Width="1.5" PointX="38.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_ObtenerDocumentacion" Width="1.5" PointX="38.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_ObtenerLicenciaActual" Width="1.5" PointX="24.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_ParametrosInd" Width="1.5" PointX="26.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_RequisitosLegales" Width="1.5" PointX="28.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_ReunionParticipantes" Width="1.5" PointX="38.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_Riesgo" Width="1.5" PointX="38.75" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_Riesgos" Width="1.5" PointX="34.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_StakeholdersN2" Width="1.5" PointX="40.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_StakeholdersN3" Width="1.5" PointX="40.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_StakeholdersN4" Width="1.5" PointX="40.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_UltimasMediciones" Width="1.5" PointX="8.75" PointY="40.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_ObtenerUsuario" Width="1.5" PointX="40.75" PointY="10.75" />
+        <EntityTypeShape EntityType="MidasModel.tipocentral" Width="1.5" PointX="40.75" PointY="14.75" />
+        <EntityTypeShape EntityType="MidasModel.usuarios" Width="1.5" PointX="40.75" PointY="17.75" />
+        <EntityTypeShape EntityType="MidasModel.centros" Width="1.5" PointX="0.75" PointY="5" />
+        <EntityTypeShape EntityType="MidasModel.tecnologias" Width="1.5" PointX="18.75" PointY="40.75" />
+        <EntityTypeShape EntityType="MidasModel.areanivel1" Width="1.5" PointX="3" PointY="5.5" />
+        <EntityTypeShape EntityType="MidasModel.areanivel2" Width="1.5" PointX="5.25" PointY="5.625" />
+        <AssociationConnector Association="MidasModel.FK_areanivel1_centros1" />
+        <AssociationConnector Association="MidasModel.FK_areanivel2_areanivel1" />
+        <EntityTypeShape EntityType="MidasModel.areanivel3" Width="1.5" PointX="7.5" PointY="5.625" />
+        <AssociationConnector Association="MidasModel.FK_areanivel3_areanivel2" />
+        <EntityTypeShape EntityType="MidasModel.tipos_riesgos_situaciones" Width="1.5" PointX="43.625" PointY="3.875" />
+        <EntityTypeShape EntityType="MidasModel.tipos_riesgos_situaciones_medidas" Width="1.5" PointX="45.875" PointY="4" />
+        <AssociationConnector Association="MidasModel.FK_tipos_riesgos_situaciones_tipos_riesgos" />
+        <AssociationConnector Association="MidasModel.FK_tipos_riesgos_situaciones_medidas_tipos_riesgos_situaciones" />
+        <EntityTypeShape EntityType="MidasModel.zonas" Width="1.5" PointX="40.75" PointY="21.75" />
+
+        <EntityTypeShape EntityType="MidasModel.agrupacion" Width="1.5" PointX="40.75" PointY="24.75" />
+        <EntityTypeShape EntityType="MidasModel.matriz_inicial" Width="1.5" PointX="40.75" PointY="27.75" />
+        <EntityTypeShape EntityType="MidasModel.tecnologias_centros" Width="1.5" PointX="40.75" PointY="31.75" />
+        <EntityTypeShape EntityType="MidasModel.version_matriz" Width="1.5" PointX="40.75" PointY="34.75" />
+        <EntityTypeShape EntityType="MidasModel.zonas_tipotecnologia" Width="1.5" PointX="40.75" PointY="38.75" />
+        <EntityTypeShape EntityType="MidasModel.centros_agrupacion" Width="1.5" PointX="0.75" PointY="41.75" />
+        <EntityTypeShape EntityType="MidasModel.centros_zonas" Width="1.5" PointX="2.75" PointY="41.75" />
+        <AssociationConnector Association="MidasModel.FK_tipos_riesgos_situaciones_medidas_tipos_riesgos_situaciones_medidas" />
+        <EntityTypeShape EntityType="MidasModel.medidas_preventivas" Width="1.5" PointX="5.25" PointY="0.875" />
+        <EntityTypeShape EntityType="MidasModel.riesgos_situaciones" Width="1.5" PointX="3" PointY="0.875" />
+        <AssociationConnector Association="MidasModel.FK_tipo_situacion" />
+        <EntityTypeShape EntityType="MidasModel.medidas_generales" Width="1.5" PointX="14.75" PointY="41.75" />
+        <EntityTypeShape EntityType="MidasModel.parametrica_medidas" Width="1.5" PointX="24.75" PointY="41.75" />
+        <EntityTypeShape EntityType="MidasModel.medidas_apartados" Width="1.5" PointX="40.75" PointY="41.75" />
+        <EntityTypeShape EntityType="MidasModel.descripcion_centro" Width="1.5" PointX="42.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MidasModel.areas_imagenes" Width="1.5" PointX="42.75" PointY="3.75" />
+        <EntityTypeShape EntityType="MidasModel.submedidas_preventivas" Width="1.5" PointX="4.75" PointY="42.75" />
+        <EntityTypeShape EntityType="MidasModel.areas2_imagenes" Width="1.5" PointX="42.75" PointY="6.75" />
+        <EntityTypeShape EntityType="MidasModel.equipos_imagenes" Width="1.5" PointX="42.75" PointY="9.75" />
+        <EntityTypeShape EntityType="MidasModel.medidaspreventivas_imagenes" Width="1.5" PointX="10.75" PointY="42.75" />
+        <EntityTypeShape EntityType="MidasModel.descripcion_general" Width="1.5" PointX="42.75" PointY="12.75" />
+        <EntityTypeShape EntityType="MidasModel.areanivel4" Width="1.5" PointX="9.75" PointY="5.625" />
+        <AssociationConnector Association="MidasModel.FK_areanivel4_areanivel3" />
+        <EntityTypeShape EntityType="MidasModel.areas4_imagenes" Width="1.5" PointX="42.75" PointY="15.75" />
+        <EntityTypeShape EntityType="MidasModel.medidas_apartados_generales" Width="1.5" PointX="42.75" PointY="18.75" />
+        <EntityTypeShape EntityType="MidasModel.medidas_generales_imagenes" Width="1.5" PointX="42.75" PointY="21.75" />
+        <EntityTypeShape EntityType="MidasModel.riesgos_medidas" Width="1.5" PointX="42.75" PointY="24.75" />
+        <EntityTypeShape EntityType="MidasModel.tipo_riesgos_critico" Width="1.5" PointX="42.75" PointY="28.75" />
+        <EntityTypeShape EntityType="MidasModel.tipos_riesgos" Width="1.5" PointX="0.75" PointY="1" />
+        <AssociationConnector Association="MidasModel.FK_tipo_tiesgo" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_tipos_riesgos" Width="1.5" PointX="30.75" PointY="42.75" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_ListaCentroTecnologia" Width="1.5" PointX="42.75" PointY="31.75" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_ListaCentroZona" Width="1.5" PointX="42.75" PointY="34.75" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_ListaCentroZonaAgrupacion" Width="1.5" PointX="42.75" PointY="37.75" />
+        <EntityTypeShape EntityType="MidasModel.matriz_centro" Width="1.5" PointX="42.75" PointY="40.75" />
+        <EntityTypeShape EntityType="MidasModel.medidas_apartadosV2" Width="1.5" PointX="16.75" PointY="43.75" />
+        <EntityTypeShape EntityType="MidasModel.VISTA_tipo_riesgos_critico" Width="1.5" PointX="18.75" PointY="43.75" />
+        <EntityTypeShape EntityType="MidasModel.matriz_centro_critico" Width="2" PointX="20.75" PointY="43.75" />
+        <EntityTypeShape EntityType="MidasModel.tecnologias_tiposRiesgosCriticos" Width="1.5" PointX="32.75" PointY="43.75" />
+        <EntityTypeShape EntityType="MidasModel.documentos_riesgos_criticos" PointX="34.75" PointY="43.75" Width="1.5" />
+        <EntityTypeShape EntityType="MidasModel.documento_historico_criticos" Width="1.5" PointX="44.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MidasModel.documento_historico" Width="1.5" PointX="0.75" PointY="44.75" />
+        <EntityTypeShape EntityType="MidasModel.documentos_riesgos" Width="1.5" PointX="44.75" PointY="4.75" />
+        <EntityTypeShape EntityType="MidasModel.personas" Width="1.5" PointX="6.75" PointY="44.75" />
+        <EntityTypeShape EntityType="MidasModel.lista_final_personas" Width="1.5" PointX="44.75" PointY="8.75" />
+        <EntityTypeShape EntityType="MidasModel.banco_icono" Width="1.5" PointX="44.75" PointY="12.75" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
